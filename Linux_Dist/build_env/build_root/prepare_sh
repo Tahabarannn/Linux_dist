@@ -1,5 +1,0 @@
-echo "Dist Root: ${DIST_ROOT:?}"
-echo "LfS Root: ${LFS:?}"  
-
-mkdir $LFS/sources
-
