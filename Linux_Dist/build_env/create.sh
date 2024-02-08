@@ -15,5 +15,6 @@ cd $DIST_ROOT/build_env
 #bash -e build_scripts/gcc-pass1.sh
 #bash -e build_scripts/linux-headers.sh
 #bash -e build_scripts/glibc.sh
+bash -e build_scripts/libstdcpp-pass-1.sh gcc-13.2.0.tar.xz
 
 echo "DONE!"
