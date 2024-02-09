@@ -5,7 +5,7 @@ echo "Cleaning up"
 echo
 
 cd $LFS/sources
-DIR=$(echo $FILE | awk -F".t" '{print $1}')
+DIR=$(echo $FILE | awk -F"\\\\.t" '{print $1}')
 rm -rf $DIR
 
 echo

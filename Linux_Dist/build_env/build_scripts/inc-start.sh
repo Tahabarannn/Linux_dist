@@ -8,7 +8,7 @@ sleep 1
 cd $LFS/sources
 echo "Extracting..."
 tar -xf $FILE
-DIR=$(echo $FILE | awk -F".t" '{print $1}')
+DIR=$(echo $FILE | awk -F"\\\\.t" '{print $1}')
 cd $DIR
 echo "changed to build path"
 pwd
