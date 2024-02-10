@@ -34,4 +34,6 @@ cd $DIST_ROOT/build_env
 #bash -e build_scripts/binutils-pass2.sh binutils-2.41.tar.xz
 #bash -e build_scripts/gcc-pass2.sh gcc-13.2.0.tar.xz
 
+sudo -E build_scripts/build-chroot.sh
+
 echo "DONE!"
